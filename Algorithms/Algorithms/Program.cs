@@ -1,7 +1,9 @@
 ﻿
-int[] data = {7,3,8,4,1,9,6,2,5,10};
+using System.Text;
 
-foreach (int i in data) Console.Write($"{i} ");
+//int[] data = {7,3,8,4,1,9,6,2,5,10};
+
+//foreach (int i in data) Console.Write($"{i} ");
 
 /*
 //Buble sort 
@@ -41,5 +43,21 @@ for (int i = 1; i < data.Length; i++)
 */
 
 
-Console.WriteLine();
-foreach (int i in data) Console.Write(i+" ");
+//Console.WriteLine();
+//foreach (int i in data) Console.Write(i+" ");
+
+
+
+
+string str = "carlosperez";
+Console.WriteLine(str);
+
+for (int i = 0; i < str.Length; ++i)
+{
+    StringBuilder subString = new StringBuilder(str.Length - i);
+    for (int j = i; j < str.Length; ++j)
+    {
+        subString.Append(str[j]);
+        Console.Write(subString + " ");
+    }
+}

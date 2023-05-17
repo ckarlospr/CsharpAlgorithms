@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Algorithms\\Algorithms\\Algorithms.csproj": {}
+    "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Practice\\Algorithms\\Algorithms\\Algorithms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Algorithms\\Algorithms\\Algorithms.csproj": {
+    "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Practice\\Algorithms\\Algorithms\\Algorithms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Algorithms\\Algorithms\\Algorithms.csproj",
+        "projectUniqueName": "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Practice\\Algorithms\\Algorithms\\Algorithms.csproj",
         "projectName": "Algorithms",
-        "projectPath": "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Algorithms\\Algorithms\\Algorithms.csproj",
+        "projectPath": "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Practice\\Algorithms\\Algorithms\\Algorithms.csproj",
         "packagesPath": "C:\\Users\\ckarlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Algorithms\\Algorithms\\obj\\",
+        "outputPath": "C:\\Users\\ckarlos\\OneDrive\\Documentos\\ckarlos\\curses\\C#\\Practice\\Algorithms\\Algorithms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ckarlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
