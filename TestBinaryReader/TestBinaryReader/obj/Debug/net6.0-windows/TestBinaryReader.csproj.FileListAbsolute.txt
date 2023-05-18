@@ -1,0 +1,17 @@
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\bin\Debug\net6.0-windows\TestBinaryReader.exe
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\bin\Debug\net6.0-windows\TestBinaryReader.deps.json
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\bin\Debug\net6.0-windows\TestBinaryReader.runtimeconfig.json
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\bin\Debug\net6.0-windows\TestBinaryReader.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\bin\Debug\net6.0-windows\TestBinaryReader.pdb
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.csproj.AssemblyReference.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.Form1.resources
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.csproj.GenerateResource.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.AssemblyInfoInputs.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.AssemblyInfo.cs
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.csproj.CoreCompileInputs.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\refint\TestBinaryReader.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.pdb
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\TestBinaryReader.genruntimeconfig.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\TestBinaryReader\TestBinaryReader\obj\Debug\net6.0-windows\ref\TestBinaryReader.dll
