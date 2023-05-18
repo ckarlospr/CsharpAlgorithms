@@ -3,37 +3,40 @@ using System.Text;
 
 
 
-int x = 4, b = 2;
+/*int x = 4, b = 2;
 x -= b /= x * b;
 Console.WriteLine(x + " " + b);
-Console.ReadLine();
+Console.ReadLine();*/
 
 
-//int[] data = {7,3,8,4,1,9,6,2,5,10};
+int[] data = {7,3,8,4,1,9,6,2,5,10};
+foreach (int i in data) Console.Write($"{i} ");
 
-//foreach (int i in data) Console.Write($"{i} ");
-
-/*
-//Buble sort 
 Boolean sorted = false;
 int cnt = data.Length;
-
 
 while (!sorted)
 {
     sorted = true;
-    for (int i = 0; i < cnt - 1; i++)
+
+    for (int i = 0; i < cnt-1; i++)
     {
         if (data[i] > data[i + 1])
         {
             int d = data[i];
             data[i] = data[i + 1];
             data[i + 1] = d;
-            sorted = false;
+            sorted = false; 
         }
     }
+
     cnt--;
-}*/
+}
+
+
+
+
+
 
 // insertion sort
 /*
