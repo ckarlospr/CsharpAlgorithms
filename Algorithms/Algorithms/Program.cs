@@ -38,20 +38,7 @@ while (!sorted)
 
 
 
-// insertion sort
-/*
-for (int i = 1; i < data.Length; i++)
-{
-    int temp = data[i];
-    int j = i-1;
-    while(j>=0 && data[j] > temp)
-    {
-        data[j+1] = data[j];
-        data[j] = temp;
-        j--;
-    }
-}
-*/
+
 
 
 //Console.WriteLine();
