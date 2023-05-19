@@ -14,7 +14,7 @@ foreach (char c in word.ToCharArray())
 }*/
 
 //Reverse order words
-string words = "Carlos Perez";
+/*string words = "Carlos Perez";
 
 string[] words2 = words.Split(" ");
 
@@ -24,10 +24,27 @@ Console.WriteLine("\n");
 for (int i = words2.Length-1; i >= 0; i--)
 {
     Console.Write(words2[i] + " ");
+}*/
+
+
+// Is palindrome
+string data = "anitalavalatin";
+
+char[] chars = data.ToCharArray();
+int d = chars.Length;
+int ind = d - 1;
+Boolean isPalindrome = true;
+for (int i = 0; i < d/2; i++)
+{
+    //Console.WriteLine(i+" - "+chars[i] +"!="+ chars[ind - i]);
+    if (chars[i] != chars[ind - i])
+    {
+        isPalindrome=false;
+        break;
+    }
 }
 
-
-
+Console.WriteLine("Is palindrome: "+isPalindrome);
 
 
 
