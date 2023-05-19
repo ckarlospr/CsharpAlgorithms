@@ -1,4 +1,5 @@
 ﻿
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 
@@ -28,7 +29,7 @@ for (int i = words2.Length-1; i >= 0; i--)
 
 
 // Is palindrome
-string data = "anitalavalatin";
+/*string data = "anitalavalatin";
 
 char[] chars = data.ToCharArray();
 int d = chars.Length;
@@ -43,8 +44,23 @@ for (int i = 0; i < d/2; i++)
         break;
     }
 }
+Console.WriteLine("Is palindrome: "+isPalindrome);*/
 
-Console.WriteLine("Is palindrome: "+isPalindrome);
+
+//Substring 
+string data = "Carlos";
+//C Ca Car Carl Carlo Carlos a ar arl arlo arlos r rl rlo rlos l lo los o os s
+char[] str = data.ToCharArray();
+for(int i=0; i<str.Length; i++)
+{
+    string d = "";
+    for (int j=i; j<str.Length; j++)
+    {
+        d += str[j];
+        Console.Write(d+" ");
+    }
+}
+
 
 
 
