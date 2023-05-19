@@ -2,6 +2,23 @@
 using System.Text;
 
 
+//Reverse a String
+
+string word = "carlos";
+Console.Write(word);
+char[] chars =  word.ToCharArray();
+Array.Reverse(chars);
+foreach (char c in word.ToCharArray())
+{
+    Console.Write(c);
+}
+
+
+
+
+
+
+
 
 /*int x = 4, b = 2;
 x -= b /= x * b;
