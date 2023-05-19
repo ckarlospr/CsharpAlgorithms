@@ -3,16 +3,19 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 
+
+
+
+
 //Reverse a String
 
-/*string word = "carlos";
+string word = "carlos";
+string result = "carlos";
 Console.Write(word);
 char[] chars =  word.ToCharArray();
 Array.Reverse(chars);
-foreach (char c in word.ToCharArray())
-{
-    Console.Write(c);
-}*/
+result = new string(chars);
+Console.Write(result);
 
 //Reverse order words
 /*string words = "Carlos Perez";
@@ -48,7 +51,7 @@ Console.WriteLine("Is palindrome: "+isPalindrome);*/
 
 
 //Substring 
-string data = "Carlos";
+/*string data = "Carlos";
 //C Ca Car Carl Carlo Carlos a ar arl arlo arlos r rl rlo rlos l lo los o os s
 char[] str = data.ToCharArray();
 for(int i=0; i<str.Length; i++)
@@ -59,7 +62,25 @@ for(int i=0; i<str.Length; i++)
         d += str[j];
         Console.Write(d+" ");
     }
+}*/
+
+//Prime
+/*int number = 97;
+Boolean isPrime=false;
+
+if (number == 1) isPrime = false;
+else if (number==2) isPrime = true;
+else if (number % 2 == 0) isPrime = false;
+else
+{
+    isPrime = true;
+    var squareRoot = (int)Math.Floor(Math.Sqrt(number));
+    for (int i = 3; i <= squareRoot; i += 2)
+    {
+        if (number % i == 0) isPrime = false;
+    }
 }
+Console.WriteLine("number "+number+" is prime: " +isPrime);*/
 
 
 
