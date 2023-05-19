@@ -4,16 +4,27 @@ using System.Text;
 
 //Reverse a String
 
-string word = "carlos";
+/*string word = "carlos";
 Console.Write(word);
 char[] chars =  word.ToCharArray();
 Array.Reverse(chars);
 foreach (char c in word.ToCharArray())
 {
     Console.Write(c);
+}*/
+
+//Reverse order words
+string words = "Carlos Perez";
+
+string[] words2 = words.Split(" ");
+
+Console.WriteLine("\n");
+foreach (string word in words2) Console.WriteLine(word);
+Console.WriteLine("\n");
+for (int i = words2.Length-1; i >= 0; i--)
+{
+    Console.Write(words2[i] + " ");
 }
-
-
 
 
 
