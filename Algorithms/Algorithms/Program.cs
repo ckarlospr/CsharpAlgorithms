@@ -9,13 +9,13 @@ using System.Text;
 
 //Reverse a String
 
-string word = "carlos";
+/*string word = "carlos";
 string result = "carlos";
 Console.Write(word);
 char[] chars =  word.ToCharArray();
 Array.Reverse(chars);
 result = new string(chars);
-Console.Write(result);
+Console.Write(result);*/
 
 //Reverse order words
 /*string words = "Carlos Perez";
@@ -83,12 +83,11 @@ else
 Console.WriteLine("number "+number+" is prime: " +isPrime);*/
 
 
+List<int> a = new List<int>();
+a.Add(1);
+a.Add(2);
 
-
-/*int x = 4, b = 2;
-x -= b /= x * b;
-Console.WriteLine(x + " " + b);
-Console.ReadLine();*/
+Console.WriteLine(a.Count+" ");
 
 
 /*int[] data = {7,3,8,4,1,9,6,2,5,10};
