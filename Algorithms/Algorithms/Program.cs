@@ -5,6 +5,13 @@ using System.Text;
 
 
 
+string text = "asdikASGGEdsasaasafhryuop";
+char character = 'a';
+int n = 0;
+
+n = text.Where(c => c == character).Count();
+Console.WriteLine(n);
+
 
 
 //Reverse a String
@@ -82,12 +89,50 @@ else
 }
 Console.WriteLine("number "+number+" is prime: " +isPrime);*/
 
-
+/*
 List<int> a = new List<int>();
-a.Add(1);
-a.Add(2);
 
-Console.WriteLine(a.Count+" ");
+for(int i = 0; i < 100; i++)
+{
+    a.Add(66);
+}*/
+
+/*a.Add(1);
+a.Add(2);
+a.Add(2);
+a.Add(3);
+a.Add(1);
+a.Add(2);*/
+
+/*a.Sort();
+int cnt = 1;
+int max = 0;
+
+for (int i = 0; i < a.Count(); i++)
+{
+    Console.WriteLine(" * ");
+    Console.WriteLine(a[i]);
+    Console.WriteLine(" * ");
+    for (int j = i + 1; j < a.Count(); j++)
+    {
+        Console.Write(a[i] +" == "+ a[j]+" || "+ (a[1] + 1) +"=="+ a[j]);
+        if (a[i] == a[j] || a[i] + 1 == a[j])
+        {
+            
+            cnt++;
+            Console.WriteLine("  cnt: " + cnt);
+        }
+            
+        
+    }
+    if (cnt > max) max = cnt;
+    if (cnt == a.Count)
+    {
+        max = cnt;
+        break;
+    }
+    cnt = 1;
+}*/
 
 
 /*int[] data = {7,3,8,4,1,9,6,2,5,10};
