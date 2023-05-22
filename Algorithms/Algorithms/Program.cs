@@ -1,10 +1,20 @@
 ﻿
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Text.RegularExpressions;
+
+string text = "    un texto     que     tiene         palabras     ";
+int n = 0;
+
+text = Regex.Replace(text, @"\s+", " ").Trim();
+
+var words = text.Split(' ');
+
+Console.WriteLine(words.Length);
 
 
 // Distancia de Hamming
-string text1 = "patitosw";
+/*string text1 = "patitosw";
 string text2 = "paratosa";
 
 int cnt = 0;
@@ -17,7 +27,7 @@ if(text1.Length==text2.Length)
     }
 }
 
-Console.WriteLine(cnt);
+Console.WriteLine(cnt);*/
 
 
 
