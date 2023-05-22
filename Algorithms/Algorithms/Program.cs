@@ -5,12 +5,15 @@ using System.Text;
 
 
 
-string text = "asdikASGGEdsasaasafhryuop";
+
+
+
+/*string text = "asdikASGGEdsasaasafhryuop";
 char character = 'a';
 int n = 0;
 
 n = text.Where(c => c == character).Count();
-Console.WriteLine(n);
+Console.WriteLine(n);*/
 
 
 
