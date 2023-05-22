@@ -3,8 +3,21 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 
+// Distancia de Hamming
+string text1 = "patitosw";
+string text2 = "paratosa";
 
+int cnt = 0;
 
+if(text1.Length==text2.Length)
+{
+    for (int i = 0; i < text1.Length; i++)
+    {
+        if (text1[i] != text2[i]) { cnt++; }
+    }
+}
+
+Console.WriteLine(cnt);
 
 
 
