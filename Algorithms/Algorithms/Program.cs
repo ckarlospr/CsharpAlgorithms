@@ -1,16 +1,27 @@
 ﻿
+using Algorithms;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.RegularExpressions;
 
-string text = "    un texto     que     tiene         palabras     ";
+int[] ints = {1, 3, 5, 6, 7, 8, };
+
+
+
+
+
+
+
+
+
+/*string text = "    un texto     que     tiene         palabras     ";
 int n = 0;
 
 text = Regex.Replace(text, @"\s+", " ").Trim();
 
 var words = text.Split(' ');
 
-Console.WriteLine(words.Length);
+Console.WriteLine(words.Length);*/
 
 
 // Distancia de Hamming
