@@ -172,7 +172,8 @@ for (int i = 0; i < a.Count(); i++)
 }*/
 
 
-/*int[] data = {7,3,8,4,1,9,6,2,5,10};
+/* bubble
+int[] data = {7,3,8,4,1,9,6,2,5,10};
 foreach (int i in data) Console.Write($"{i} ");
 
 Boolean sorted = false;
