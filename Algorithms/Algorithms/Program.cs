@@ -4,9 +4,29 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.RegularExpressions;
 
-int[] ints = {1, 3, 5, 6, 7, 8, };
+int[] arr = {7,2,9,3,6,4,5,1,8};
+foreach(int d  in arr) Console.Write(d);
+Console.WriteLine();
 
+int cnt = arr.Length;
+Boolean sorted = false;
 
+while (!sorted)
+{
+    sorted = true;
+    for (int i = 0; i < cnt-1; i++)
+    {
+        if (arr[i] > arr[i + 1])
+        {
+            int temp = arr[i];
+            arr[i] = arr[i+1];
+            arr[i+1] = temp;
+            sorted = false;
+        }
+    }
+    cnt--;
+}
+foreach (int d in arr) Console.Write(d);
 
 
 

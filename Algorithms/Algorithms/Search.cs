@@ -15,11 +15,9 @@ namespace Algorithms
             int start, end, mid, r = -1;
             start = 0;
             end = ints.Length;
-            Boolean sorted = false;
 
-            while (!sorted)
+            while (start<end)
             {
-                sorted = true;
                 mid = (start + end)/2;
                 if (ints[mid] == n)
                 {
