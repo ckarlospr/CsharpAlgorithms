@@ -77,3 +77,14 @@ public int BinarySearch(int[] arr, int n){
     }
     return r;
 }
+
+OpenFileDialog ofd = new OpenFileDialog();
+if(ofd.ShowDialog == DielogResult.OK){
+    string path = ofd.FileName;
+    FileStream fs = new FileStream(path, FileMode.Open);
+    BinaryReader br = new BinaryReader(fs);
+
+    Byte[] buffer = br.ReadBytes(10);
+    foreach(Byte b in buffer) Console.Write(d);
+    string byteData = br.BitConverter(bytes);
+}
