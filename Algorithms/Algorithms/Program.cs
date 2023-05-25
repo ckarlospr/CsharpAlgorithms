@@ -4,12 +4,9 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.RegularExpressions;
 
-int[] arr = {7,2,9,3,6,4,5,1,8};
-foreach(int d  in arr) Console.Write(d);
-Console.WriteLine();
 
 
-
+string a = ""; 
 
 
 
