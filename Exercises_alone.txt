@@ -1,0 +1,47 @@
+//Reverse an ArrayList
+[2]->[5]->[1]->[6]->[9]->null
+[9]->[6]->[1]->[5]->[2]->null
+public Node ArrayListReverse(Node head){
+    
+    Node next = null;
+    Node current = head;
+
+    while(current!=null)
+    {
+        Node temp = current.next;
+        current.next=next;
+        current = temp;
+        next=temp.next;
+    }
+    return next;
+}
+
+//Reverse a Tree
+public void ArrayListReverse(Tree tree){
+    if(tree!=null){
+        right = tree.Right;
+        tree.Right = tree.Left;
+        tree.Left = right;
+        Reverse(tree.Left);
+        Reverse(tree.Right);
+    }
+}
+
+//Palindrome
+public Boolean isPalindrome(string word){
+    Boolean result = true;
+    for(int i=0; i<word.Length/2; i++){ 
+        if(word[i] != word[(word.Length-1)-i]){
+            return false;
+        }
+    }
+    return result;
+}
+
+//Hamming
+
+//String Reverse
+
+//Reverse order words
+
+//Substring
