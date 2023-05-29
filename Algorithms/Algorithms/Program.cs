@@ -6,8 +6,9 @@ using System.Text.RegularExpressions;
 
 
 
-string a = ""; 
+string word = "Carlos Perez Ramirez";
 
+string[] data = word.Split();
 
 
 
@@ -60,7 +61,7 @@ result = new string(chars);
 Console.Write(result);*/
 
 //Reverse order words
-/*string words = "Carlos Perez";
+string words = "Carlos Perez";
 
 string[] words2 = words.Split(" ");
 
@@ -70,7 +71,7 @@ Console.WriteLine("\n");
 for (int i = words2.Length-1; i >= 0; i--)
 {
     Console.Write(words2[i] + " ");
-}*/
+}
 
 
 // Is palindrome
