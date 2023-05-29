@@ -1,56 +1,52 @@
 public void BubbleSort(int[] arr){
-    int cnt = arr.Length;
+    int cnt = 0;
     Boolean sorted = false;
 
     while(!sorted){
-        sorted=true;
+        sorted = true;
         for(int i=0; i<cnt-1; i++){
             if(arr[i] > arr[i+1]){
-                Swap(arr, i, i+1)
-                sorted=false;
+                Swap(arr, i, i+1);
+                sorted = flase;
             }
         }
-        cnt--;
+        cnt++;
     }
     
 }
 
 public void Swap(int[] arr, int pos1, int pos2){
     int temp = arr[pos1];
-    arr[pos1]=arr[pos2];
-    arr[pos2]=temp;
+    arr[pos1] = arr[pos2];
+    arr[pos2] = temp;
 }
 
 public void InsertionSort(int[] arr){
-
     for(int i=1; i<arr.Length; i++){
         int j=i-1;
-        int val = arr[i];
-
-        while(j>=0 && arr[j]>val){
-            arr[j+1]=arr[j];
-            arr[j]=val;
+        int temp = arr[i];
+        while(j>=0 && arr[j]>temp){
+            arr[j+1] = arr[j];
+            arr[j] = temp;
             j--;
         }
     }
 }
 
 public void QuickSort(int[] arr, int start, int end){
-    if(start >= end)return;
-    int index = 0;
-
-    index = Partition(arr, start, end);
+    if(start >= end) return;
+    int index = Partition(arr, start, end);
     QuickSort(arr, start, index-1);
     QuickSort(arr, index+1, end);
 }
 
 public int Partition(int[] arr, int start, int end){
-    int pivotValue = arr[end];
-    int pivotIndex = start;
+    pivotIndex = (start + end ) /2;
+    pivotValue = arr[end];
 
     for(int i=start; i<end; i++){
         if(arr[i]<pivotValue){
-            Swap(arr, i, pivotIndex);
+            Swap(arr, pivotIndex, i);
             pivotIndex++;
         }
     }
@@ -60,31 +56,20 @@ public int Partition(int[] arr, int start, int end){
 
 public int BinarySearch(int[] arr, int n){
     int start, end, mid, r=-1;
-    start = 0;
-    end = arr.Length;
-
-    while(start>end){
-        mid = (start+end)/2;
-
+    start=0;
+    end=arr.Length;
+    while(start<end){
+        mid=(start+end)/2;
         if(arr[mid]==n){
-            r=n;
+            r=mid;
             break;
-        }else if(n > arr[mid]) {
-            start=mid;
-        }else{
+        }else if(arr[mid]>n){
+            start = mid;
+        }else if(arr[mid]>n){
             end = mid;
         }
     }
     return r;
 }
 
-OpenFileDialog ofd = new OpenFileDialog();
-if(ofd.ShowDialog == DielogResult.OK){
-    string path = ofd.FileName;
-    FileStream fs = new FileStream(path, FileMode.Open);
-    BinaryReader br = new BinaryReader(fs);
-
-    Byte[] buffer = br.ReadBytes(10);
-    foreach(Byte b in buffer) Console.Write(d);
-    string byteData = br.BitConverter(bytes);
-}
+// Binary reader
