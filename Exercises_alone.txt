@@ -1,36 +1,75 @@
 //Reverse an ArrayList
-
+[4]->[3]->[2]->[1]->null
+[1]->[2]->[3]->[4]->null
 public Node ArrayListReverse(Node head){
+    Node current = head;
+    Node next = null;
+    if(current != null){
+        Node temp = current.Next;
+        current.next = next;
+        next = current;
+        current = temp;
+    }
 
 }
 
 //Reverse a Tree
-public void ArrayListReverse(Tree tree){
-    
+public void TreeReverse(Tree tree){
+    Tree temp = tree.Left;
+    tree.Left = tree.Right;
+    tree.Right = temp;
+    TreeReverse(tree.Left);
+    TreeReverse(tree.Right);
 }
 
 //Palindrome
 public Boolean isPalindrome(string word){
-    
+    for(int i=0; i<word.Length/2; i++){
+        if(word[i]!=word[word.Length-i]){
+            return false;
+        }
+    }
+    return true;
 }
 
 //Hamming
 public int Hamming(int[] arr1, int[] arr2){
-    
+    if(arr1.Length>arr2.Length) return -1;
+    int cnt=0;
+    for(int i=0; i<arr1.Length; i++){
+        if(arr1[i]!=arr2[i]){
+            cnt++;
+        }
+    }
+    return cnt;
 }
 
 //String Reverse
 public void ReversWord(string word){
-    
+    for(int i=word.Length-1; i>=0; i--){
+        Console.Write(word[i]);
+    }
 }
 
 //Reverse order words
 public void ReversOrder(string data){
-    
+    String[] words = data.Split(" ");
+    String result="";
+    for(int i=words.Length; i>=0; i--){
+        result += words[i]+" ";
+    }
+    Console.WriteLine(result);
 }
 
 
 //Substring
 public void subStrings(string word){
     
+    for(int i=0; i<word.Length; i++){
+        String result = "";    
+        for(int j=i; j<word.Length; j++){
+            result = word[j]+" ";
+            Console.Write(result);
+        }   
+    }
 }
