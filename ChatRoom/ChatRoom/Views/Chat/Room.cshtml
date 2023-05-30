@@ -22,8 +22,36 @@
 <script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
 
 <script>
-    var connection = new signalR.HubConnectionBuilder().sithUrl("/chat").build();
+    var connection = new signalR.HubConnectionBuilder().withUrl("/chat").build();
+
     connection.start().then(() => {
-        connection.invoke("AddToGroup", @Model)
+        connection.invoke("AddToGroup", "@Model")
+    }).catch((e) => console.error(e));
+
+    document.getElementById("btnSend").addEventListener("click", (event) => {
+
+        let room = "@Model";
+        let user = document.getElementById("user").value;
+        let message = document.getElementById("message").value;
+
+        connection.invoke("SendMessage", room, user, message)
+            .catch((err) => console.error(err.toString()));
+
+        document.getElementById("message").value = "";
+        document.getElementById("message").focus();
+
+        event.preventDefault();
     })
+
+    connection.on("ReceiveMessage", (user, message) => {
+        var message = "<div ><b>" + user + " dijo:</b> " + message + "</div>";
+        document.getElementById("messages").innerHTML =
+            message + document.getElementById("messages").innerHTML;
+    });
+
+    connection.on("ShowWho", (message) => {
+        var message = "<div ><b>" + message + " </b></div>";
+        document.getElementById("notifications").innerHTML =
+            message + document.getElementById("notifications").innerHTML;
+    });
 </script>

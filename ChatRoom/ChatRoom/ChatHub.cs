@@ -12,7 +12,8 @@ namespace ChatRoom
         public async Task AddToGroup(String room)
         {
             await Groups.AddToGroupAsync(Context.ConnectionId, room);
-            await Clients.Group(room).SendAsync("ShowWho", $"Somewhere have been connected {Context.ConnectionId}");
+            await Clients.Group(room).SendAsync("ShowWho", 
+                $"Somewhere have been connected {Context.ConnectionId}");
         }
     }
 }
