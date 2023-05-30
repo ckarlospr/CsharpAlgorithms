@@ -73,3 +73,11 @@ public int BinarySearch(int[] arr, int n){
 }
 
 // Binary reader
+OpenFileDialog ofd = new OpenFileDialog();
+if(ofd.ShowDialog == DialogResult.OK){
+    String path = ofd.FileName;
+    FileStream fs = new FileStream(path, FileMode.Open);
+    
+    Byte[] bytes = fs.ReadBytes(10);
+    foreach(Byte b in bytes) Console.Write(b);
+}
