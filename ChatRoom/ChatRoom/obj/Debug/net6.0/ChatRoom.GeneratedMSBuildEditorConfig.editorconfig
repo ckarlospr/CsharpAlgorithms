@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ChatRoom\ChatRoom
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ckarlos/OneDrive/Documentos/ckarlos/curses/C\#/Practice/ChatRoom/ChatRoom/Views/Chat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ckarlos/OneDrive/Documentos/ckarlos/curses/C\#/Practice/ChatRoom/ChatRoom/Views/Chat/Room.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxSb29tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ckarlos/OneDrive/Documentos/ckarlos/curses/C\#/Practice/ChatRoom/ChatRoom/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

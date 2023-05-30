@@ -1,0 +1,11 @@
+﻿@model int
+
+<h1>@ChatRoom.Controllers.ChatController.Rooms.GetValueOrDefault(Model)</h1>
+
+<div class="row">
+    <div class="col-12">
+        <input type="text" placeholder="user" id="user" />
+        <input type="text" placeholder="text" id="message" />
+        <button id="btnSend">Send</button>
+    </div>
+</div>
