@@ -108,7 +108,7 @@ for(int i=0; i<str.Length; i++)
 }*/
 
 //Prime
-/*int number = 97;
+int number = 97;
 Boolean isPrime=false;
 
 if (number == 1) isPrime = false;
@@ -123,7 +123,7 @@ else
         if (number % i == 0) isPrime = false;
     }
 }
-Console.WriteLine("number "+number+" is prime: " +isPrime);*/
+Console.WriteLine("number "+number+" is prime: " +isPrime);
 
 /*
 List<int> a = new List<int>();
