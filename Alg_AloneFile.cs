@@ -73,3 +73,5 @@ public int BinarySearch(int[] arr, int n){
 }
 
 // Binary reader
+
+binary Codebunk
