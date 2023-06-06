@@ -1,0 +1,17 @@
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\bin\Debug\net6.0-windows\ExerciseInterview.exe
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\bin\Debug\net6.0-windows\ExerciseInterview.deps.json
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\bin\Debug\net6.0-windows\ExerciseInterview.runtimeconfig.json
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\bin\Debug\net6.0-windows\ExerciseInterview.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\bin\Debug\net6.0-windows\ExerciseInterview.pdb
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.csproj.AssemblyReference.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.Form1.resources
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.csproj.GenerateResource.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.AssemblyInfoInputs.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.AssemblyInfo.cs
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.csproj.CoreCompileInputs.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\refint\ExerciseInterview.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.pdb
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ExerciseInterview.genruntimeconfig.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExerciseInterview\ExerciseInterview\obj\Debug\net6.0-windows\ref\ExerciseInterview.dll
