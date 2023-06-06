@@ -61,15 +61,3 @@ public void ReversOrder(string data){
     Console.WriteLine(result);
 }
 
-
-//Substring
-public void subStrings(string word){
-    
-    for(int i=0; i<word.Length; i++){
-        String result = "";    
-        for(int j=i; j<word.Length; j++){
-            result = word[j]+" ";
-            Console.Write(result);
-        }   
-    }
-}
