@@ -36,13 +36,43 @@ public void InsertionSort(int[] arr){
 }
 
 public void QuickSort(int[] arr, int start, int end){
-    
+    if(start => end) return;
+
+    int index = Partition(arr, start, end);
+    QuickSort(arr, start, index-1);
+    QuickSort(arr, index+1, end);
 }
 
 public int Partition(int[] arr, int start, int end){
-    
+    int pivotIndex = end;
+    int pivotValue = arr[end];
+
+    for(int i=0; i<end; i++){
+        if(arr[i]<pivotValue){
+            Swap(arr, start, end);
+            pivotIndex++;
+        }
+    }
+    Swap(arr, pivotIndex, end);
+    return pivotIndex;
 }
 
 public int BinarySearch(int[] arr, int n){
+    int mid, start, end, r = -1;
+    start = 0;
+    end = args.Length;
     
+    while(start<end){
+        mid = (start + end)/2;
+        if(arr[mid]==n){
+            r = mid;
+            break;
+        } else if (arr[mid]>n){
+            start = mid;
+        } else if (arr[mid]<n){
+            end = mid;
+        }
+    }
+
+    return r;
 }
