@@ -40,7 +40,10 @@ namespace ExerciseInterview
                 {
                     if(c == d) { count++; }    
                 }
-                dd = dd + "\n" + p + " " + count;
+                if(count > 1)
+                {
+                    dd = dd + "\n" + p + " " + count;
+                }
                 p = "";
                 count = 0;
             }
