@@ -12,6 +12,7 @@ if(ofd.ShowDialog == ResultDialog.OK){
 }
 
 
+
 public int BinarySearch(int[] arr, int n){
     int start, end, mid, r=-1;
     start = 0;

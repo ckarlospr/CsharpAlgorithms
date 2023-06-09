@@ -76,3 +76,6 @@ public int BinarySearch(int[] arr, int n){
 
     return r;
 }
+
+
+//BinaryReader
