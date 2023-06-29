@@ -33,4 +33,12 @@ app.MapGet("/brewery/{id}", (int id) =>
 //Con depedencias
 app.MapGet("/beers", (PubContext db) => db.Beers.ToList());
 
+app.MapPost("/beers", (PubContext db, Beer beer) =>
+{
+    db.Beers.Add(beer);
+    db.SaveChanges();
+
+    return Results.Created($"beer/{beer.BeerId}", beer);
+});
+
 app.Run();
