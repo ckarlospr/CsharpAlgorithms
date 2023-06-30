@@ -24,12 +24,20 @@ namespace ExcersicesTest
                 }
             }
 
-            data = sb.ToString();
+            /*data = sb.ToString();
             char a = data.GroupBy(x => x).OrderByDescending(x => x.Count()).First().Key;
-            int d = data.Count(t => t == a);
-            //char a = data.GroupBy(x => x).OrderByDescending(x => x.Count()).First();
+            int d = data.Count(t => t == a);*/
+            
+            data = sb.ToString();
+            string dist = new String(data.Distinct().ToArray());
+            dist = String.Concat(dist.OrderBy(x => x));
+            Console.WriteLine(data);
+            foreach (char item in dist) 
+            {
+                Console.WriteLine(item + " - " + data.Count(x => x == item));
+            }
 
-            Console.WriteLine(a+" - "+d);
+            Console.WriteLine(dist);
         }
 
         public Boolean Palindrome(string word)
