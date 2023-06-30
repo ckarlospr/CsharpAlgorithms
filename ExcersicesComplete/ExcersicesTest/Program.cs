@@ -21,6 +21,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
             int r = algorithms.BinarySearch(ints, number);
             Console.WriteLine("");
             Console.WriteLine(number + " is in position: " + r);
+            
+            
+            //Problems
+            Problems problems = new Problems();
+            string word = "anitalavalatona";
+            Console.WriteLine("is palndrome " + word + ": " + problems.Palindrome(word));
 
         }
 

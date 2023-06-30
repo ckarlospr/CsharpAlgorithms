@@ -14,16 +14,38 @@ namespace ExcersicesTest
             //string data = "  #$&(Carlos    (&/(%&/$Perez345    Ramirez       ";
         }
 
-        public void Palindrome(string word)
+        public Boolean Palindrome(string word)
         {
+            Boolean result = true;
 
-        }
-        public Boolean Haming(int[] arr1, int[] arr2)
-        {
-            Boolean result = false;
-
+            for (int i=0; i<word.Length/2; i++)
+            {
+                if (word[i] != word[word.Length - 1 - i])
+                {
+                    result = false;
+                    break;
+                }
+            }
 
             return result;
+        }
+        public int Haming(int[] arr1, int[] arr2)
+        {
+            int result = -1;
+            if(arr1.Length == arr2.Length)
+            {
+                result = 0;
+                for (int i = 0; i < arr1.Length; i++)
+                {
+                    if (arr1[i] != arr2[i])
+                    {
+                        result++;
+                    }
+                }
+            }
+
+            return result;
+            
         }
 
         public void ReverseWord()
@@ -47,9 +69,18 @@ namespace ExcersicesTest
         /*
         public Node ArrayListReverse(Node head)
         {
-
-        }
-        */
+            Node current = head;
+            Node next = null;
+            
+            while(current != null)
+            {   
+                Node temp = current.next;
+                current.next = next;
+                next = current;
+                current = temp;
+            }
+            return next;
+         }*/
 
         //Reverse Tree
         /*
