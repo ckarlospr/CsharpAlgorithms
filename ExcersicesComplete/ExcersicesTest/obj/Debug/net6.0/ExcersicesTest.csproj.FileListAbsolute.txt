@@ -1,0 +1,15 @@
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\bin\Debug\net6.0\ExcersicesTest.exe
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\bin\Debug\net6.0\ExcersicesTest.deps.json
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\bin\Debug\net6.0\ExcersicesTest.runtimeconfig.json
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\bin\Debug\net6.0\ExcersicesTest.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\bin\Debug\net6.0\ExcersicesTest.pdb
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\ExcersicesTest.csproj.AssemblyReference.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\ExcersicesTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\ExcersicesTest.AssemblyInfoInputs.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\ExcersicesTest.AssemblyInfo.cs
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\ExcersicesTest.csproj.CoreCompileInputs.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\ExcersicesTest.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\refint\ExcersicesTest.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\ExcersicesTest.pdb
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\ExcersicesTest.genruntimeconfig.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\Practice\ExcersicesComplete\ExcersicesTest\obj\Debug\net6.0\ref\ExcersicesTest.dll
