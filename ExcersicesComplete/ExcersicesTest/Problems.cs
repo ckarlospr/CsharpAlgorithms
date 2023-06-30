@@ -9,9 +9,27 @@ namespace ExcersicesTest
 {
     internal class Problems
     {
-        public void CountLetters(string data)
+        public void CountLetters()
         {
-            //string data = "  #$&(Carlos    (&/(%&/$Perez345    Ramirez       ";
+            string data = "  #$&(Carlos    (&/(%&/$Perez345    Ramirez       ";
+            data = data.ToLower();
+            data = data.Replace(" ", "");
+
+            StringBuilder sb = new StringBuilder();
+            foreach (char item in data) 
+            {
+                if (item >= 'a' && item <= 'z')
+                {
+                    sb.Append(item);
+                }
+            }
+
+            data = sb.ToString();
+            char a = data.GroupBy(x => x).OrderByDescending(x => x.Count()).First().Key;
+            int d = data.Count(t => t == a);
+            //char a = data.GroupBy(x => x).OrderByDescending(x => x.Count()).First();
+
+            Console.WriteLine(a+" - "+d);
         }
 
         public Boolean Palindrome(string word)
@@ -48,19 +66,42 @@ namespace ExcersicesTest
             
         }
 
-        public void ReverseWord()
+        public void ReverseWord(string word)
         {
-
+            for (int i=word.Length-1; i>=0; i--)
+            {
+                Console.Write(word[i]);
+            }
         }
 
-        public void ReverseWords()
+        public void ReverseWords(string data)
         {
-
+            String[] words = data.Split(" ");
+            String result = "";
+            for (int i=words.Length-1; i>=0; i--)
+            {
+                result += words[i] + " ";
+            }
+            Console.WriteLine(result);
         }
 
-        public void SubString()
-        {
+        public void SubString(string word)
+        {//carlos
+            //c ca car carl carlo carlos a ar arl arlo arlos r rl rlo rlos l lo los o os s
+            string result = "";
+            for (int i=0; i<word.Length; i++)
+            {
+                result += word[i];
+                Console.Write(result+ " ");
+                for (int j=i+1; j<word.Length; j++)
+                {
+                    result += word[j];
+                    Console.Write(result + " ");
+                }
+                result = "";
+            }
 
+            
         }
 
         //Reverse ArrayList

@@ -7,7 +7,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            int[] ints = { 5, 6, 1, 9, 3, 15, 7, 2, 8, 4 };
+            /*int[] ints = { 5, 6, 1, 9, 3, 15, 7, 2, 8, 4 };
             foreach (int i in ints) { Console.Write(i+" "); }
 
             Algorithms algorithms = new Algorithms();
@@ -28,6 +28,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
             string word = "anitalavalatona";
             Console.WriteLine("is palndrome " + word + ": " + problems.Palindrome(word));
 
+            problems.ReverseWord("Carlos");
+            Console.WriteLine("");
+            problems.ReverseWords("Carlos Perez Ramirez");
+            Console.WriteLine("");
+            problems.SubString("carlos");*/
+            Problems problems = new Problems();
+            problems.CountLetters();
         }
 
         
