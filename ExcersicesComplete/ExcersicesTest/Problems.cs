@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -29,15 +31,36 @@ namespace ExcersicesTest
             int d = data.Count(t => t == a);*/
             
             data = sb.ToString();
-            string dist = new String(data.Distinct().ToArray());
-            dist = String.Concat(dist.OrderBy(x => x));
             Console.WriteLine(data);
+            string dist = new String(data.Distinct().ToArray());
+            Hashtable hashtable = new Hashtable();  
+            
+
+            //dist = String.Concat(dist.OrderByDescending(x => x));
+            
+            string lFirst = "";
+            int cntFirst = 0;
+            string lSec = "";
+            int cntSec = 0;
+
             foreach (char item in dist) 
             {
                 Console.WriteLine(item + " - " + data.Count(x => x == item));
+                if (data.Count(x => x == item) > cntFirst)
+                {
+                    lFirst = item.ToString();
+                    cntFirst = data.Count(x => x == item);
+                }else if (data.Count(x => x == item) > cntSec)
+                {
+                    lSec = item.ToString();
+                    cntSec = data.Count(x => x == item);
+                }
             }
 
-            Console.WriteLine(dist);
+            Console.WriteLine("first: " + lFirst);
+            Console.WriteLine("count: " + cntFirst);
+            Console.WriteLine("Sec: " + lSec);
+            Console.WriteLine("count: " + cntSec);
         }
 
         public Boolean Palindrome(string word)
