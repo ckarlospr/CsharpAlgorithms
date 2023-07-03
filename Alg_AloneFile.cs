@@ -39,7 +39,11 @@
 
         public void QuickSort(int[] arr, int start, int end)
         {
-            
+            if(start>=end) return;
+
+            int index = Partition(arr, start, end);
+            QuickSort(arr, start, index-1);
+            QuickSort(arr, index+1, end);
         }
 
         public int Partition(int[] arr, int start, int end)
