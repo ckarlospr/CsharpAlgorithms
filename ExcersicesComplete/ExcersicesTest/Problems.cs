@@ -25,10 +25,6 @@ namespace ExcersicesTest
                     sb.Append(item);
                 }
             }
-
-            /*data = sb.ToString();
-            char a = data.GroupBy(x => x).OrderByDescending(x => x.Count()).First().Key;
-            int d = data.Count(t => t == a);*/
             
             data = sb.ToString();
             Console.WriteLine(data);
