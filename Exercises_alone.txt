@@ -10,7 +10,7 @@ public Node ArrayListReverse(Node head){
         next = current;
         current = temp;
     }
-
+    return next;
 }
 
 //Reverse a Tree
