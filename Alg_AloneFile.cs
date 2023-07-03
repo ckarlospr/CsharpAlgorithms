@@ -48,7 +48,17 @@
 
         public int Partition(int[] arr, int start, int end)
         {
+            int pivotIndex = 0;
+            int pivotValue = arr[end];
             
+            for(int i=start; i<end; i++){
+                if(arr[i]>pivotValue){
+                    Swap(arr, pivotIndex, i);
+                    pivotIndex++;
+                }
+            }
+            Swap(arr, pivotIndex, end);
+            return pivotIndex;
         }
 
         public int BinarySearch(int[] arr, int n)
